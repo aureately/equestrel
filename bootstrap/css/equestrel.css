@@ -81,13 +81,13 @@ nav {
   background-repeat: no-repeat, no-repeat;
   background-position: top center, bottom center;
   padding: 8%;
-  width: 94%; }
+  width: 84%; }
 
 .pullquote {
   font-family: 'Fanwood Text', Georgia, serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 2em;
+  font-size: 1.9em;
   color: #744d1a;
   line-height: 1.25em; }
 
@@ -96,7 +96,10 @@ nav {
   height: 500px;
   clear: both; }
   #characters .col-md-4 {
-    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
     padding: 0;
     float: left; }
     #characters .col-md-4 img {
