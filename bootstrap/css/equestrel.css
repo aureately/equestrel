@@ -16,7 +16,7 @@ h2 {
   font-family: 'Fanwood Text', Georgia, serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 6%;
+  margin-bottom: 5%;
   padding-top: 1%; }
 
 h3 {
@@ -24,6 +24,12 @@ h3 {
   font-family: 'Fanwood Text', Georgia, serif;
   font-weight: 400;
   font-style: normal; }
+
+h4 {
+  font-family: 'Fanwood Text', Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1.5em; }
 
 #header {
   position: fixed;
@@ -43,13 +49,18 @@ ul {
   margin: auto;
   width: 100%;
   text-align: center; }
+  ul li {
+    float: left;
+    margin-right: 5%;
+    margin-top: 0.5%;
+    text-align: center;
+    width: 20%; }
 
-li {
-  float: left;
-  margin-right: 5%;
-  margin-top: 0.5%;
-  text-align: center;
-  width: 20%; }
+ol {
+  text-align: left;
+  margin-top: 3.5em; }
+  ol li {
+    margin-bottom: 1em; }
 
 nav {
   font-size: 90%; }
@@ -124,16 +135,29 @@ nav {
     margin-right: auto;
     margin-bottom: 1em;
     text-align: left; }
+  #world h4 {
+    text-align: left; }
+  #world .col-md-4 p {
+    width: 100%; }
 
 .img-space {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em; }
 
 .img-block {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
   display: inline-block; }
+
+.containercenter {
+  margin-top: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: auto; }
+
+.extra {
+  clear: both; }
