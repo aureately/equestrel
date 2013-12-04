@@ -58,7 +58,7 @@ li {
 }
 
 nav {
-	font-size: 1em;
+	font-size: 90%;
 	a:link, a:visited {
 	    color: rgb(109,83,48);
 	    text-decoration: none;
@@ -145,7 +145,33 @@ nav {
 		right: auto;
 		bottom: 6%;
 	}
-	img {
-		display: inline-block;
+	p {
+		width: 70%;
+		margin: {
+			top: auto;
+			left: auto;
+			right: auto;
+			bottom: 1em;
+		}
+		text-align: left;
 	}
+}
+
+.img-space {
+	margin: {
+		top: 2em;
+		left: auto;
+		right: auto;
+		bottom: 2em;
+	}
+}
+
+.img-block {
+	margin: {
+		top: 2em;
+		left: auto;
+		right: auto;
+		bottom: 2em;
+	}
+	display: inline-block;
 }

@@ -52,7 +52,7 @@ li {
   width: 20%; }
 
 nav {
-  font-size: 1em; }
+  font-size: 90%; }
   nav a:link, nav a:visited {
     color: #6d5330;
     text-decoration: none; }
@@ -118,5 +118,23 @@ nav {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 6%; }
-  #world img {
-    display: inline-block; }
+  #world p {
+    width: 70%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    text-align: left; }
+
+.img-space {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em; }
+
+.img-block {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  display: inline-block; }
